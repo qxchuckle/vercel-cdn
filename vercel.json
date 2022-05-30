@@ -3,7 +3,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "cdn.jsdelivr.net",
+            "dest": "https://cdn.jsdelivr.net",
             "headers": {
                 "cache-control": "ms-maxage=1000"
             }
